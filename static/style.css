@@ -1,0 +1,45 @@
+body {
+    background-color: #0b0f14;
+    color: #00ff9c;
+    font-family: "Courier New", monospace;
+    text-align: center;
+}
+
+.container {
+    margin-top: 80px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+input[type="file"] {
+    background-color: #111;
+    color: #00ff9c;
+    border: 1px solid #00ff9c;
+    padding: 10px;
+    width: 300px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #00ff9c;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00cc7a;
+}
+
+.result {
+    margin-top: 30px;
+    font-size: 18px;
+    border-top: 1px solid #00ff9c;
+    padding-top: 20px;
+}
